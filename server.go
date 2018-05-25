@@ -40,6 +40,11 @@ func (handler) ServeHTTP(w http.ResponseWriter, r *http.Request) {
 		return
 	}
 
+	if r.URL.Path == "/_health" {
+		w.WriteHeader(http.StatusOK)
+		return
+	}
+
 	ext := path.Ext(r.URL.Path)
 	if ext != "" && ext != ".png" && ext != ".svg" {
 		ext = ""
