@@ -1,0 +1,4 @@
+github.com/ajstarks/svgo v0.0.0-20180830174826-7338bd80e790 h1:501Zg60y06JDtrR7HRVcX2vBWXfAviBaRUkzcRPzzHU=
+github.com/ajstarks/svgo v0.0.0-20180830174826-7338bd80e790/go.mod h1:K08gAheRH3/J6wwsYMMT4xOr94bZjxIelGM0+d/wbFw=
+github.com/cupcake/sigil v0.0.0-20131127230922-6bf9722f2ae8 h1:OPuOoDEMJx86BQOPt4rfZvOjquI3Ym3XUE1Dy+gQoVs=
+github.com/cupcake/sigil v0.0.0-20131127230922-6bf9722f2ae8/go.mod h1:paJ9TzhB9Ke4jQk99LQSyBdSILWICp01d7R0S8CSCPI=
