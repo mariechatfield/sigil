@@ -1,10 +1,10 @@
-FROM golang:1.10-stretch
+FROM golang:1.11-stretch
 
-WORKDIR /go/src/github.com/cupcake/sigil
+WORKDIR /app/sigil
 COPY server.go .
 COPY gen gen
+COPY go.mod .
 
-RUN go get
 RUN go build -v .
 
-CMD ["sigil"]
+CMD ["./sigil"]
